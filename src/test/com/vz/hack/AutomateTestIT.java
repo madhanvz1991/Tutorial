@@ -46,8 +46,7 @@ public class JavaApplication1Test {
         System.out.println("main");
         String[] args = null;
         JavaApplication1.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     
 }
