@@ -1,23 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <description>org.devchamps</description>
+  <url>http://github.com/madhanvz1991/hackrace</url>
+
   <groupId>org.devchamps</groupId>
   <artifactId>devchamps</artifactId>
-  <packaging>war</packaging>
-  <version>1.3.7</version>
+    <version>1.0</version>
+    <packaging>war</packaging>
   <name>devchamps</name>
-  <description>org.devchamps</description>
-  <url>http://github.com/madhanvz1991/Tutorial</url>
 
-  
-  <properties>
-    <github.global.server>github</github.global.server>
-  </properties>
-
- 
-
-  
- 
+    <properties>
+        <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
   <dependencies>
    
