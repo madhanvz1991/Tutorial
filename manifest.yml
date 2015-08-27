@@ -1,7 +1,6 @@
 applications:
 - name: devchamps
   memory: 512M
-  host: devchamps
-  domain: cfapps.io
+  host: cfapps.io
   path: target/generateTest.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
