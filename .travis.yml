@@ -1,14 +1,8 @@
 language: java
 
-
-
-## do the tests
-script: mvn test
-
 jdk:
   - openjdk7
 
- 
 notifications:
   email:
     - madhan.packiriswamy@verizon.com
