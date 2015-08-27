@@ -1,3 +1,3 @@
-# Tutorial
+# Automated Test Cases in JUnit
 
-This is a sample project created for testing.
+This is a  project created for generating automated JUnit Test cases.
