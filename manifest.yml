@@ -1,7 +1,7 @@
 applications:
 - name: devchamps
   memory: 512M
-  host: my-app
+  host: my-java-app
   domain: madhanswamy17-org.cfapps.io
   path: target/generateTest.war
   
