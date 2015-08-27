@@ -1,19 +1,13 @@
 language: java
-
 sudo: true
-
 install: mvn clean install
-
-jdk:
- - oraclejdk8 
-
 deploy:
-   edge: true
-   provider: cloudfoundry
-   username: madhanswamy17@gmail.com
-   password: sapphire.17
-   api: https://api.run.pivotal.io
-   organization: madhanswamy17-org
-   space: development
+ edge: true
+ provider: cloudfoundry
+ username: madhanswamy17@gmail.com
+ password: sapphire.17
+ api: https://api.run.pivotal.io
+ organization: madhanswamy17-org
+ space: development
 on:
-repo: madhanvz1991/Tutorial
+ repo: madhanvz1991/Tutorial
