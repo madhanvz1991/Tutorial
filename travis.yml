@@ -8,10 +8,10 @@ jdk:
 deploy:
    edge: true
    provider: cloudfoundry
-   username: contactgladius@gmail.com
-   password: anandhi123
+   username: madhanswamy17@gmail.com
+   password: sapphire.17
    api: https://api.run.pivotal.io
-   organization: vecinnovators
+   organization: devchamps
    space: development
 
 
