@@ -1,8 +1,6 @@
 language: java
 
-## do everything in madhanvz1991 directory
-## this installs dependencies. 
-install: cd madhanvz1991;mvn install -DskipTests=false;cd ..
+
 
 ## do the tests
 script: mvn test
