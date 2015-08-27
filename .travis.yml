@@ -3,7 +3,7 @@ language: java
 sudo: true
 
 script:
- mvn verify
+ mvn test
 
 jdk:
  - oraclejdk8 
