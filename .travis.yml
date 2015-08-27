@@ -18,6 +18,3 @@ deploy:
    space: development
 
 
-notifications:
-  email:
-    - madhan.packiriswamy@verizon.com
