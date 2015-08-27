@@ -1,5 +1,5 @@
 language: java
-sudo: false
+sudo: true
 install: mvn clean install
 deploy:
  edge: true
@@ -11,4 +11,4 @@ deploy:
  organization: madhanswamy17-org
  space: development
 on:
- repo: madhanvz1991/Tutorial
+ repo: madhanvz1991/hackrace
