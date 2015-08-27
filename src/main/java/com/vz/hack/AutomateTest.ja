@@ -1,0 +1,9 @@
+
+package com.vz.hack;
+
+public class AutomateTest {
+
+	public int testOpr(int a, int b){
+        return a+b;
+    }
+}
