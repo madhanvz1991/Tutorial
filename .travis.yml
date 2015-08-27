@@ -1,8 +1,19 @@
 language: java
-install: mvn install -DskipTests=false;
-script: mvn test
+
+sudo: true
+
 jdk:
-  - openjdk7
+ - oraclejdk8 
+
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: contactgladius@gmail.com
+   password: anandhi123
+   api: https://api.run.pivotal.io
+   organization: vecinnovators
+   space: development
+
 
 notifications:
   email:
