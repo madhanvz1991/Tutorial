@@ -9,66 +9,25 @@
   <description>org.devchamps</description>
   <url>http://github.com/madhanvz1991/Tutorial</url>
 
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>5</version>
-  </parent>
-
+  
   <properties>
     <github.global.server>github</github.global.server>
   </properties>
 
-  <developers>
-    <developer>
-      <id>fernandezpablo85</id>
-      <name>Pablo Fernandez</name>
-      <email>fernandezpablo85@gmail.com</email>
-      <timezone>-3</timezone>
-    </developer>
-  </developers>
+ 
 
-  <licenses>
-    <license>
-      <name>MIT</name>
-      <url>http://github.com/fernandezpablo85/scribe-java/blob/master/LICENSE.txt</url>
-    </license>
-  </licenses>
-
-  <scm>
-    <connection>scm:http://github.com/fernandezpablo85/scribe-java.git</connection>
-    <developerConnection>scm:http://github.com/fernandezpablo85/scribe-java.git</developerConnection>
-    <url>http://github.com/fernandezpablo85/scribe-java.git</url>
-  </scm>
-
-  <distributionManagement>
-    <repository>
-      <id>internal.repo</id>
-      <name>Temporary Staging Repository</name>
-      <url>file://${project.build.directory}/mvn-repo</url>
-    </repository>
-  </distributionManagement>
+  
+ 
 
   <dependencies>
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-junit</artifactId>
-      <version>2.0.0.0</version>
-      <scope>test</scope>
-    </dependency>
+   
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.4</version>
-      <scope>compile</scope>
-      <optional>true</optional>
-    </dependency>
+    
   </dependencies>
   <build>
     <plugins>
@@ -104,45 +63,8 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>com.github.github</groupId>
-        <artifactId>site-maven-plugin</artifactId>
-        <version>0.9</version>
-        <configuration>
-          <message>Maven artifacts for ${project.version}</message>
-          <noJekyll>true</noJekyll>
-          <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-          <branch>refs/heads/mvn-repo</branch>
-          <includes><include>**/*</include></includes>
-          <repositoryName>scribe-java</repositoryName>
-          <repositoryOwner>fernandezpablo85</repositoryOwner>
-        </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>site</goal>
-            </goals>
-            <phase>deploy</phase>
-          </execution>
-        </executions>
-        </plugin>
-        <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>findbugs-maven-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-          <execution>
-            <id>failing-on-high</id>
-            <phase>compile</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-            <configuration>
-              <threshold>Low</threshold>
-            </configuration>
-          </execution>
-        </executions>
-        </plugin>
+      
+  
  
     </plugins>
   </build>
