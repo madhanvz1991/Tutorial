@@ -4,4 +4,3 @@ applications:
   host: devchamps
   domain: madhanswamy17-org.cfapps.io
   path: target/devchamps-1.0.war
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git
