@@ -5,7 +5,6 @@ jdk:
 
 sudo: required
 
-all_branches: true
 
 install: mvn clean install
  
@@ -18,5 +17,4 @@ deploy:
  organization: madhanswamy17-org
  space: development
 on:
- all_branches: true
- repo: madhanvz1991/hackrace
+ repo: madhanvz1991/testSample/hackrace
