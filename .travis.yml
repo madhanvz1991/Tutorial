@@ -1,6 +1,12 @@
 language: java
+
 sudo: required
+
+jdk:
+ - oraclejdk8 
+ 
 install: mvn clean install
+
 deploy:
  edge: true
  provider: cloudfoundry
