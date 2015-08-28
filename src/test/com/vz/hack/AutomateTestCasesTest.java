@@ -49,7 +49,7 @@ public class AutomateTestCasesTest {
 	        int a = 10;
 	        int b = 5;
 	        AutomateTestCases instance = new AutomateTestCases();
-	        int expResult = 10;
+	        int expResult = 15;
 	        int result = instance.testOpr(a, b);
 	        assertEquals(expResult, result);
 	    }
