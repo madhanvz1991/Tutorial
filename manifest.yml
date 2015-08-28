@@ -4,3 +4,4 @@ applications:
   host: devchamps
   domain: madhanswamy17-org.cfapps.io
   path: target/generatetest.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
