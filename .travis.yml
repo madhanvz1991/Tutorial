@@ -7,7 +7,7 @@ sudo: required
 
 all_branches: true
 
-install: mvn install -Dgpg.skip=true -DskipTests
+install: mvn install install
  
 deploy:
  edge: true
