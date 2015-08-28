@@ -5,6 +5,8 @@ jdk:
 
 sudo: required
 
+all_branches: true
+
 install: mvn install -Dgpg.skip=true -DskipTests
  
 deploy:
@@ -16,5 +18,5 @@ deploy:
  organization: madhanswamy17-org
  space: development
 on:
- branch: testSample
+ all_branches: true
  repo: madhanvz1991/hackrace
