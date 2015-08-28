@@ -3,4 +3,4 @@ applications:
   memory: 512M
   host: devchamps
   domain: madhanswamy17-org.cfapps.io
-  path: target/generatetest.war
+  path: target/devchamps-1.0.war
